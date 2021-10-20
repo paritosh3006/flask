@@ -1,0 +1,18 @@
+# =============================================================================
+# build-job:
+#   stage: build
+#   script:
+#     - echo "Hello World!"
+# 
+# test-job1:
+#   stage: test
+#   script:
+#     - echo "This job tests something"
+# 
+# 
+# =============================================================================
+demo_job_1:
+     tags:
+       - ci
+     script:
+       - echo Hello World
